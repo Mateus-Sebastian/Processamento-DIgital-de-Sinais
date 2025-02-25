@@ -4,7 +4,7 @@
 Este repositório contém a atividade prática da disciplina de <strong>Processamento Digital de Sinais</strong>, abordando conceitos avançados com base no livro texto <em>Digital Signal Processing using MatLab</em>.
 </p>
 
-### **Capítulo 4: A Transformada-z** 🔄
+### **Capítulo 4: A Transformada-z**
 A transformada-z representa um método matemático essencial para examinar e desenvolver sistemas de processamento digital de sinais. Considerada o equivalente discreto da transformada de Laplace, esta ferramenta permite estudar sistemas LTI (Lineares e Invariantes no Tempo) analisando seu comportamento frequencial.
 
 #### **Definição da Transformada-z** 
