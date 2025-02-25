@@ -27,3 +27,19 @@ A transformada-z encontra aplicação em:
 - **Verificação da estabilidade em sistemas digitais.**
 - **Desenvolvimento e implementação de filtros digitais.**
 - **Estudo do comportamento frequencial de sistemas.**
+
+#### **Anexos**
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://colab.research.google.com/drive/15LLKP70mI4uQdBgdRD-PIKjTUPuk68zU?usp=sharing">
+        <b>Colab</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.youtube.com/watch?v=_cwMggmruPw">
+        <b>Vídeo</b>
+      </a>
+    </td>
+  </tr>
+</table>
