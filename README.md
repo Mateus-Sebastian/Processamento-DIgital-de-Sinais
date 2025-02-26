@@ -80,3 +80,28 @@ A DFT encontra uso em:
     </td>
   </tr>
 </table>
+
+### **Capítulo 6: Implementação de Filtros Discretos no Tempo**
+No processamento digital de sinais, os filtros em tempo discreto são elementos fundamentais para manipulação e análise de sinais. Existem dois tipos principais de filtros: os Filtros com Resposta Finita ao Impulso (FIR) e os Filtros com Resposta Infinita ao Impulso (IIR).
+
+#### **Filtros FIR**
+Os Filtros FIR caracterizam-se por produzirem uma resposta limitada no tempo quando recebem um impulso como entrada. Isso significa que sua saída eventualmente retorna a zero após um determinado número de amostras. Uma das grandes vantagens desses filtros é sua estabilidade garantida e fase linear, características que os tornam excelentes escolhas para diversos cenários.
+
+#### **Filtros IIR**
+Os Filtros IIR apresentam uma resposta que teoricamente continua indefinidamente quando estimulados por um impulso. Embora possam oferecer maior eficiência computacional comparados aos FIR, apresentam algumas limitações: podem se tornar instáveis em certas condições e não mantêm a linearidade da fase em sua resposta.
+
+#### **Anexos**
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://colab.research.google.com/drive/1ZNQJ1ZDZMkpKjWw6CSYY0ptt1jtA388h?usp=sharing">
+        <b>Colab</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.youtube.com/watch?v=W6Tlq2YrXGk">
+        <b>Vídeo</b>
+      </a>
+    </td>
+  </tr>
+</table>
