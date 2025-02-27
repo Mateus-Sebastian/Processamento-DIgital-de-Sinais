@@ -163,3 +163,36 @@ O projeto de filtros IIR pode ser realizado através de diferentes abordagens:
     </td>
   </tr>
 </table>
+
+### **Capítulo 12: Aplicações em Comunicações**
+O DSP (Processamento Digital de Sinais) é fundamental para diversos sistemas de comunicação modernos. Neste capítulo, exploraremos como diferentes técnicas de processamento digital são implementadas para otimizar a transmissão de informações, garantindo maior eficácia e fidelidade dos dados.
+
+#### **Técnicas de Modulação Digital**
+Para transmitir informações digitais através de meios analógicos, utilizamos processos de modulação digital. As principais abordagens são:
+- **PSK (Modulação por Alteração de Fase):** Modifica a fase da onda portadora para representar diferentes valores digitais.
+- **FSK (Modulação por Variação de Frequência):** Altera a frequência do sinal portador para codificar os dados binários.
+- **QAM (Modulação de Amplitude e Fase):** Utiliza variações simultâneas de amplitude e fase para aumentar a densidade de informação transmitida.
+
+#### **Sistemas de Proteção contra Erros**
+Para assegurar que as informações cheguem ao destino sem alterações, são empregados mecanismos de verificação e correção. Entre eles:
+- **Verificadores de Erro:** Implementações como bits de paridade e verificação cíclica redundante (CRC).
+- **Sistemas Corretivos:** Implementação de códigos como Hamming e técnicas convolucionais.
+
+#### **Processamento e Ajuste de Sinais**
+O tratamento e ajuste de sinais são essenciais para combater interferências e degradação no processo de comunicação. Através de filtros digitais específicos, é possível eliminar ruídos e aprimorar a qualidade das informações recebidas.
+
+#### **Anexos**
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://colab.research.google.com/drive/1a21uRYIz8skmUR4gbLPbvmumjKokFAqT?usp=sharing">
+        <b>Colab</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.youtube.com/watch?v=srYlywiBrYM&list=PLiyqJyiJiQ_HJr_BsSf1-HxUf52uowzAx">
+        <b>Vídeo</b>
+      </a>
+    </td>
+  </tr>
+</table>
