@@ -134,3 +134,32 @@ Diversas abordagens podem ser utilizadas para criar filtros FIR, entre elas:
     </td>
   </tr>
 </table>
+
+### **Capítulo 8: Projeto de Filtros IIR**
+No processamento de sinais digitais, os filtros IIR (Resposta ao Impulso Infinita) destacam-se por sua notável eficiência no processamento computacional. Sua característica distintiva é a resposta infinita ao impulso, onde o sinal de saída é influenciado tanto pelos sinais de entrada (presentes e anteriores) quanto pelos sinais de saída precedentes.
+
+#### **Técnicas de Desenvolvimento de Filtros IIR**
+O projeto de filtros IIR pode ser realizado através de diferentes abordagens:
+- **Transformada Bilinear:** Realiza a conversão de filtros do domínio analógico para digital, mantendo suas características de estabilidade e resposta frequencial.
+- **Técnica de Amostragem do Impulso:** Transforma a resposta impulsiva analógica em sua correspondente digital.
+- **Aproximação via Chebyshev:** Otimiza o projeto minimizando a diferença máxima entre as respostas em frequência real e desejada.
+
+#### **Características Fundamentais dos Filtros IIR**
+- **Otimização Computacional:** Em comparação com filtros FIR, os IIR necessitam de menor quantidade de coeficientes para alcançar respostas em frequência equivalentes.
+- **Aspectos de Estabilidade:** A estabilidade é determinada pela posição dos polos no plano z, sendo que a instabilidade ocorre quando estes se encontram além do círculo unitário.
+
+#### **Anexos**
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://colab.research.google.com/drive/13CJsQGlGHRbIJzovQ6UKXHxvaS7KyCXe?usp=sharing">
+        <b>Colab</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.youtube.com/watch?v=oKni6f--VJ8">
+        <b>Vídeo</b>
+      </a>
+    </td>
+  </tr>
+</table>
