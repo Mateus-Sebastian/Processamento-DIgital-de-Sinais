@@ -105,3 +105,32 @@ Os Filtros IIR apresentam uma resposta que teoricamente continua indefinidamente
     </td>
   </tr>
 </table>
+
+### **Capítulo 7: Projeto de Filtros FIR**
+No processamento de sinais digitais, os filtros de Resposta Finita ao Impulso (FIR) destacam-se por suas características de estabilidade e fase linear. Para implementar um filtro FIR, é necessário calcular seus coeficientes de modo a alcançar determinadas características desejadas na resposta em frequência.
+
+#### **Técnicas de Desenvolvimento de Filtros FIR**
+Diversas abordagens podem ser utilizadas para criar filtros FIR, entre elas:
+- **Técnica de Janelamento:** Utiliza funções de janela temporal, como Hamming ou Blackman, para multiplicar a resposta impulsiva ideal.
+- **Método de Chebyshev:** Busca reduzir ao máximo a diferença entre a resposta em frequência obtida e a resposta desejada.
+- **Técnica de Otimização por Mínimos Quadrados:** Reduz o valor médio quadrático do erro entre a resposta em frequência real e a ideal.
+
+#### **Características Fundamentais dos Filtros FIR**
+- **Garantia de Estabilidade:** Por não apresentarem pólos externos ao círculo unitário, os filtros FIR são inerentemente estáveis.
+- **Linearidade de Fase:** Esta característica é essencial em sistemas onde alterações na fase do sinal devem ser evitadas.
+
+#### **Anexos**
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://colab.research.google.com/drive/1d_6C8wV7YLuYZDHyNu7SGN3TjVifN9VY?usp=sharing">
+        <b>Colab</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.youtube.com/watch?v=u_tFWolPZY0">
+        <b>Vídeo</b>
+      </a>
+    </td>
+  </tr>
+</table>
